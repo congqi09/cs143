@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  workspace:
+    build:
+      context: ./docker
+    volumes:
+      - ${PWD}/cs143:/usr/class/cs143:cached
+    entrypoint: /bin/bash
+    working_dir: /usr/class/cs143
