@@ -7,4 +7,5 @@ RUN apt-get install -y perl flex bison build-essential csh \
 		   	openjdk-8-jdk libxaw7-dev wget git
 
 RUN mkdir /usr/class
-ENV PATH=/usr/class/cs143/bin:$PATH
+# ENV PATH=/usr/class/cs143/bin:$PATH
+ENV PATH=/usr/class/cs143/cool/bin:$PATH
