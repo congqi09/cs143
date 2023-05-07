@@ -8,3 +8,4 @@ RUN apt-get install -y flex bison build-essential csh openjdk-8-jdk libxaw7-dev 
 
 RUN mkdir /usr/class
 RUN cd /usr/class
+ENV PATH=/usr/class/cs143/bin:$PATH
